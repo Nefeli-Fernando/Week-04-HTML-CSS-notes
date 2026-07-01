@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        #box{
+            background-color:aquamarine;
+            width:200px;
+            border:5px Solid brown;
+            transition: color 0.5s ease ,font-size 0.5s ease;
+        }
+
+        #box:hover{   /* Block Element */
+            color:black;
+            font-size: 50px;
+        }
+
+        #box-1{   /* Inline */
+            background-color:blueviolet;
+        }
+
+        span{
+            background-color:red
+        }
+
+        .currentline{
+            display:inline;
+        }
+
+        .nextLine{
+            display:block;
+        }
+
+        .one{
+            padding: 40px 20px 20px 25px;
+            background-color:palevioletred;
+            width:70px;
+            margin:20px 15px 20px 25px;
+        }
+    </style>
+
+</body>
+<div id="box">
+    <h1 class="currentline">Hello</h1>
+    <h1>World 01</h1>
+</div>
+
+<div id="box-1">
+    <span class="nextLine">Hello</span>
+    <span>World 02</span>
+    <span>Heyyy guys</span>
+
+    
+</div>
+</html>
